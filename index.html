@@ -1,0 +1,70 @@
+```html
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🎮 GAME DATABASE</div>
+
+    <nav>
+        <a href="index.html">หน้าแรก</a>
+        <a href="index.html">เกมทั้งหมด</a>
+        <a href="#">⭐ เกมโปรด</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p class="small-title">WELCOME TO</p>
+
+            <h1>GAME<br>DATABASE</h1>
+
+            <p class="description">
+                ค้นหาเกม ดูข้อมูล และจัดเกมที่คุณชื่นชอบไว้ในที่เดียว
+            </p>
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="ค้นหาชื่อเกม..."
+                >
+
+                <button onclick="searchGames()">
+                    ค้นหา
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="games-section">
+
+        <div class="section-title">
+            <div>
+                <p class="small-title">EXPLORE</p>
+                <h2>เกมทั้งหมด</h2>
+            </div>
+
+            <p id="gameCount"></p>
+        </div>
+
+        <div id="gameList" class="game-grid"></div>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```

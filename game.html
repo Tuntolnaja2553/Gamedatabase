@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>รายละเอียดเกม | Game Database</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        🎮 GAME DATABASE
+    </div>
+
+    <nav>
+        <a href="index.html">หน้าแรก</a>
+        <a href="index.html">เกมทั้งหมด</a>
+        <a href="#">⭐ เกมโปรด</a>
+    </nav>
+
+</header>
+
+
+<main id="gameDetails">
+
+    <div class="loading">
+        กำลังโหลดข้อมูลเกม...
+    </div>
+
+</main>
+
+
+<script>
+
+const params = new URLSearchParams(
+    window.location.search
+);
+
+const gameName = params.get("name");
+
+
+async function loadGame() {
+
+    try {
+
+        const response = await fetch("games.json");
+
+        if (!response.ok) {
+            throw new Error("โหลด games.json ไม่สำเร็จ");
+        }
+
+        const games = await response.json();
+
+
+        const game = games.find(function(item) {
+
+            return item.name === gameName;
+
+        });
+
+
+        const container =
+            document.getElementById("gameDetails");
+
+
+        if (!game) {
+
+            container.innerHTML = `
+                <div class="not-found">
+                    <h1>ไม่พบเกม</h1>
+
+                    <p>
+                        ไม่พบข้อมูลเกมนี้ในฐานข้อมูล
+                    </p>
+
+                    <a href="index.html">
+                        ← กลับหน้าแรก
+                    </a>
+                </div>
+            `;
+
+            return;
+
+        }
+
+
+        /*
+        =========================================
+        สร้าง URL ปกเกมจาก Steam App ID
+        =========================================
+        */
+
+        let coverImage = game.image;
+
+
+        if (game.appId) {
+
+            coverImage =
+                "https://shared.steamstatic.com/store_item_assets/steam/apps/"
+                + game.appId
+                + "/library_600x900.jpg";
+
+        }
+
+
+        /*
+        =========================================
+        หน้า DETAIL
+        =========================================
+        */
+
+        container.innerHTML = `
+
+            <section class="game-detail-page">
+
+                <div
+                    class="game-background"
+                    style="background-image:
+                    linear-gradient(
+                        90deg,
+                        rgba(9,11,16,1) 0%,
+                        rgba(9,11,16,0.92) 45%,
+                        rgba(9,11,16,0.55) 100%
+                    ),
+                    url('${coverImage}')">
+                </div>
+
+
+                <div class="game-detail-content">
+
+
+                    <!-- ปกเกม -->
+
+                    <div class="cover-container">
+
+                        <img
+                            src="${coverImage}"
+                            alt="${game.name}"
+                            class="big-game-cover"
+                            onerror="this.src='${game.image || "https://placehold.co/600x900/151820/ffffff?text=No+Cover"}'"
+                        >
+
+                    </div>
+
+
+                    <!-- ข้อมูลเกม -->
+
+                    <div class="game-detail-info">
+
+
+                        <p class="detail-genre">
+                            ${game.genre || "ไม่ระบุประเภท"}
+                        </p>
+
+
+                        <h1>
+                            ${game.name}
+                        </h1>
+
+
+                        <div class="game-meta">
+
+
+                            <div class="meta-box">
+
+                                <span class="meta-title">
+                                    🎮 แพลตฟอร์ม
+                                </span>
+
+                                <span class="meta-value">
+                                    ${game.platform || "ไม่ระบุ"}
+                                </span>
+
+                            </div>
+
+
+                            <div class="meta-box">
+
+                                <span class="meta-title">
+                                    🎯 ประเภท
+                                </span>
+
+                                <span class="meta-value">
+                                    ${game.genre || "ไม่ระบุ"}
+                                </span>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <h2>
+                            เกี่ยวกับเกม
+                        </h2>
+
+
+                        <p class="game-description">
+
+                            ${game.description || "ยังไม่มีคำอธิบายเกม"}
+
+                        </p>
+
+
+                        <div class="detail-buttons">
+
+                            <button
+                                class="favorite-button"
+                                onclick="addFavorite('${game.name.replace(/'/g, "\\'")}')">
+
+                                ⭐ เพิ่มในเกมโปรด
+
+                            </button>
+
+
+                            <a
+                                href="index.html"
+                                class="back-button">
+
+                                ← กลับไปเกมทั้งหมด
+
+                            </a>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        `;
+
+
+        /*
+        =========================================
+        เปลี่ยนชื่อหน้าเว็บ
+        =========================================
+        */
+
+        document.title =
+            game.name + " | Game Database";
+
+
+    } catch (error) {
+
+        console.error(error);
+
+        document.getElementById("gameDetails").innerHTML = `
+
+            <div class="not-found">
+
+                <h1>
+                    เกิดข้อผิดพลาด
+                </h1>
+
+                <p>
+                    ไม่สามารถโหลดข้อมูลเกมได้
+                </p>
+
+                <a href="index.html">
+                    ← กลับหน้าแรก
+                </a>
+
+            </div>
+
+        `;
+
+    }
+
+}
+
+
+/*
+=========================================
+ระบบเกมโปรด
+=========================================
+*/
+
+function addFavorite(gameName) {
+
+    let favorites =
+        JSON.parse(
+            localStorage.getItem("favorites")
+        ) || [];
+
+
+    if (!favorites.includes(gameName)) {
+
+        favorites.push(gameName);
+
+        localStorage.setItem(
+            "favorites",
+            JSON.stringify(favorites)
+        );
+
+        alert(
+            "⭐ เพิ่ม " +
+            gameName +
+            " ในเกมโปรดแล้ว"
+        );
+
+    } else {
+
+        alert(
+            "เกมนี้อยู่ในเกมโปรดแล้ว ⭐"
+        );
+
+    }
+
+}
+
+
+loadGame();
+
+</script>
+
+</body>
+
+</html>

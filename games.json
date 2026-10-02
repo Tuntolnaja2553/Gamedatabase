@@ -1,0 +1,821 @@
+[
+  {
+    "name": "Counter-Strike 2",
+    "appId": 730,
+    "genre": "FPS",
+    "platform": "PC",
+    "description": "เกมยิงแข่งขันแบบทีมที่เน้นการวางแผน การเล็ง และการทำงานร่วมกัน"
+  },
+  {
+    "name": "Dota 2",
+    "appId": 570,
+    "genre": "MOBA",
+    "platform": "PC",
+    "description": "เกม MOBA แบบทีมที่ผู้เล่นเลือกฮีโร่และต่อสู้เพื่อทำลายฐานของฝ่ายตรงข้าม"
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "appId": 271590,
+    "genre": "Open World",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Open World ที่ให้สำรวจเมือง Los Santos และเล่นเรื่องราวของตัวละครหลายคน"
+  },
+  {
+    "name": "Red Dead Redemption 2",
+    "appId": 1174180,
+    "genre": "Action Adventure",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมผจญภัยในโลกตะวันตกที่มีโลกเปิดขนาดใหญ่และเนื้อเรื่องเข้มข้น"
+  },
+  {
+    "name": "Cyberpunk 2077",
+    "appId": 1091500,
+    "genre": "RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม RPG โลกอนาคตที่ผู้เล่นรับบทเป็น V และสำรวจเมือง Night City"
+  },
+  {
+    "name": "The Witcher 3: Wild Hunt",
+    "appId": 292030,
+    "genre": "RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม RPG โลกเปิดที่ติดตามการผจญภัยของ Geralt of Rivia"
+  },
+  {
+    "name": "Elden Ring",
+    "appId": 1245620,
+    "genre": "Action RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Action RPG โลกเปิดที่มีการต่อสู้และการสำรวจที่ท้าทาย"
+  },
+  {
+    "name": "Baldur's Gate 3",
+    "appId": 1086940,
+    "genre": "RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม RPG ที่เน้นเนื้อเรื่อง การเลือกของผู้เล่น และการต่อสู้แบบ Turn-Based"
+  },
+  {
+    "name": "Hogwarts Legacy",
+    "appId": 990080,
+    "genre": "Action RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมผจญภัยในโลกเวทมนตร์ของ Hogwarts"
+  },
+  {
+    "name": "Hades",
+    "appId": 1145360,
+    "genre": "Roguelike",
+    "platform": "PC, Switch, PS5, Xbox",
+    "description": "เกม Action Roguelike ที่ผู้เล่นพยายามหลบหนีออกจากโลกใต้พิภพ"
+  },
+  {
+    "name": "Hollow Knight",
+    "appId": 367520,
+    "genre": "Metroidvania",
+    "platform": "PC, Switch, PS5, Xbox",
+    "description": "เกมผจญภัย 2D ที่มีโลกใต้ดินขนาดใหญ่และศัตรูมากมาย"
+  },
+  {
+    "name": "Terraria",
+    "appId": 105600,
+    "genre": "Sandbox",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกม Sandbox 2D ที่ให้สำรวจ ขุด สร้าง และต่อสู้"
+  },
+  {
+    "name": "Stardew Valley",
+    "appId": 413150,
+    "genre": "Simulation",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกมทำฟาร์มและใช้ชีวิตในชนบทที่ผู้เล่นสามารถสร้างฟาร์มและพบปะผู้คน"
+  },
+  {
+    "name": "Among Us",
+    "appId": 945360,
+    "genre": "Party",
+    "platform": "PC, Mobile, Switch",
+    "description": "เกมปาร์ตี้ที่ผู้เล่นต้องทำภารกิจและค้นหาผู้แอบแฝง"
+  },
+  {
+    "name": "Dead by Daylight",
+    "appId": 381210,
+    "genre": "Horror",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมสยองขวัญแบบ 4 ต่อ 1 ระหว่างผู้รอดชีวิตและฆาตกร"
+  },
+  {
+    "name": "Phasmophobia",
+    "appId": 739630,
+    "genre": "Horror",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมสยองขวัญแบบร่วมมือกันที่ผู้เล่นต้องสืบสวนกิจกรรมเหนือธรรมชาติ"
+  },
+  {
+    "name": "PUBG: BATTLEGROUNDS",
+    "appId": 578080,
+    "genre": "Battle Royale",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Battle Royale ที่ผู้เล่นต้องเอาชีวิตรอดจนเป็นคนสุดท้าย"
+  },
+  {
+    "name": "Apex Legends",
+    "appId": 1172470,
+    "genre": "Battle Royale",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมยิง Battle Royale ที่มีตัวละครแต่ละตัวพร้อมความสามารถเฉพาะตัว"
+  },
+  {
+    "name": "Rainbow Six Siege",
+    "appId": 359550,
+    "genre": "FPS",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมยิงเชิงกลยุทธ์ที่เน้นการบุกและป้องกันพื้นที่"
+  },
+  {
+    "name": "Destiny 2",
+    "appId": 1085660,
+    "genre": "FPS",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมยิงมุมมองบุคคลที่หนึ่งผสม RPG และการเล่นออนไลน์"
+  },
+  {
+    "name": "Warframe",
+    "appId": 230410,
+    "genre": "Action",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกม Action ออนไลน์ที่ผู้เล่นควบคุมนักรบ Warframe"
+  },
+  {
+    "name": "Team Fortress 2",
+    "appId": 440,
+    "genre": "FPS",
+    "platform": "PC",
+    "description": "เกมยิงแบบทีมที่มีตัวละครหลายคลาสและรูปแบบการเล่นที่แตกต่างกัน"
+  },
+  {
+    "name": "Halo Infinite",
+    "appId": 1240440,
+    "genre": "FPS",
+    "platform": "PC, Xbox",
+    "description": "เกมยิง Sci-Fi ที่มีทั้งโหมดเนื้อเรื่องและ Multiplayer"
+  },
+  {
+    "name": "Battlefield 2042",
+    "appId": 1517290,
+    "genre": "FPS",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมยิงสงครามขนาดใหญ่ที่มีสนามรบและยานพาหนะจำนวนมาก"
+  },
+  {
+    "name": "THE FINALS",
+    "appId": 2073850,
+    "genre": "FPS",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมยิงแข่งขันที่มีสนามรบซึ่งสามารถทำลายสิ่งแวดล้อมได้"
+  },
+  {
+    "name": "Helldivers 2",
+    "appId": 553850,
+    "genre": "Shooter",
+    "platform": "PC, PS5",
+    "description": "เกมยิง Co-op ที่ผู้เล่นร่วมมือกันต่อสู้กับศัตรูจากต่างดาว"
+  },
+  {
+    "name": "Left 4 Dead 2",
+    "appId": 550,
+    "genre": "FPS",
+    "platform": "PC",
+    "description": "เกมยิงซอมบี้แบบ Co-op ที่ผู้เล่นต้องร่วมมือกันเอาชีวิตรอด"
+  },
+  {
+    "name": "Portal 2",
+    "appId": 620,
+    "genre": "Puzzle",
+    "platform": "PC",
+    "description": "เกม Puzzle ที่ใช้ปืนสร้างประตูเพื่อแก้ปริศนา"
+  },
+  {
+    "name": "Garry's Mod",
+    "appId": 4000,
+    "genre": "Sandbox",
+    "platform": "PC",
+    "description": "เกม Sandbox ที่เปิดให้ผู้เล่นสร้างสิ่งต่าง ๆ และเล่นโหมดที่สร้างโดยชุมชน"
+  },
+  {
+    "name": "Rust",
+    "appId": 252490,
+    "genre": "Survival",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Survival ที่ต้องเก็บทรัพยากร สร้างฐาน และเอาตัวรอดจากผู้เล่นคนอื่น"
+  },
+  {
+    "name": "Valheim",
+    "appId": 892970,
+    "genre": "Survival",
+    "platform": "PC, Xbox",
+    "description": "เกม Survival ในโลกแฟนตาซีไวกิ้งที่สามารถเล่นร่วมกับเพื่อนได้"
+  },
+  {
+    "name": "Palworld",
+    "appId": 1623730,
+    "genre": "Survival",
+    "platform": "PC, Xbox",
+    "description": "เกม Survival Open World ที่สามารถจับและใช้งานสิ่งมีชีวิตที่เรียกว่า Pals"
+  },
+  {
+    "name": "ARK: Survival Ascended",
+    "appId": 2399830,
+    "genre": "Survival",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Survival โลกเปิดที่ผู้เล่นสามารถเลี้ยงและขี่ไดโนเสาร์"
+  },
+  {
+    "name": "Sons Of The Forest",
+    "appId": 1326470,
+    "genre": "Survival Horror",
+    "platform": "PC",
+    "description": "เกม Survival Horror โลกเปิดที่สามารถเล่นร่วมกับเพื่อนได้"
+  },
+  {
+    "name": "The Forest",
+    "appId": 242760,
+    "genre": "Survival Horror",
+    "platform": "PC, PS4",
+    "description": "เกม Survival ที่ผู้เล่นต้องสร้างที่พักและเอาชีวิตรอดบนเกาะลึกลับ"
+  },
+  {
+    "name": "Lethal Company",
+    "appId": 1966720,
+    "genre": "Horror",
+    "platform": "PC",
+    "description": "เกม Co-op Horror ที่ผู้เล่นต้องออกสำรวจสถานที่อันตรายเพื่อเก็บของ"
+  },
+  {
+    "name": "Deep Rock Galactic",
+    "appId": 548430,
+    "genre": "Co-op FPS",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมยิง Co-op ที่ผู้เล่นรับบทเป็นคนแคระอวกาศและสำรวจดาวเคราะห์"
+  },
+  {
+    "name": "Dying Light 2",
+    "appId": 534380,
+    "genre": "Action",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Open World ที่ผสมการต่อสู้กับซอมบี้และระบบ Parkour"
+  },
+  {
+    "name": "Resident Evil 4",
+    "appId": 2050650,
+    "genre": "Horror",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Survival Horror ที่ติดตามภารกิจของ Leon Kennedy"
+  },
+  {
+    "name": "Resident Evil Village",
+    "appId": 1196590,
+    "genre": "Horror",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Survival Horror ที่มีบรรยากาศหมู่บ้านลึกลับ"
+  },
+  {
+    "name": "Resident Evil 2",
+    "appId": 883710,
+    "genre": "Horror",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Survival Horror ที่ติดตาม Leon และ Claire ใน Raccoon City"
+  },
+  {
+    "name": "Resident Evil 7",
+    "appId": 418370,
+    "genre": "Horror",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Survival Horror มุมมองบุคคลที่หนึ่ง"
+  },
+  {
+    "name": "It Takes Two",
+    "appId": 1426210,
+    "genre": "Co-op",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมผจญภัยแบบ Co-op ที่ออกแบบมาให้เล่นสองคน"
+  },
+  {
+    "name": "Monster Hunter: World",
+    "appId": 582010,
+    "genre": "Action RPG",
+    "platform": "PC, PS4, Xbox",
+    "description": "เกมล่ามอนสเตอร์ที่ผู้เล่นสามารถสร้างอุปกรณ์จากวัตถุดิบที่ได้รับ"
+  },
+  {
+    "name": "Monster Hunter Rise",
+    "appId": 1446780,
+    "genre": "Action RPG",
+    "platform": "PC, Switch, PS5, Xbox",
+    "description": "เกมล่ามอนสเตอร์ที่มีระบบ Wirebug และการเดินทางที่รวดเร็ว"
+  },
+  {
+    "name": "Monster Hunter Wilds",
+    "appId": 2246340,
+    "genre": "Action RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมล่ามอนสเตอร์ในโลกที่มีสภาพแวดล้อมเปลี่ยนแปลงตามธรรมชาติ"
+  },
+  {
+    "name": "Black Myth: Wukong",
+    "appId": 2358720,
+    "genre": "Action RPG",
+    "platform": "PC, PS5",
+    "description": "เกม Action RPG ที่ได้รับแรงบันดาลใจจากตำนานไซอิ๋ว"
+  },
+  {
+    "name": "Lies of P",
+    "appId": 1627720,
+    "genre": "Action RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Action RPG ที่ได้รับแรงบันดาลใจจากเรื่อง Pinocchio"
+  },
+  {
+    "name": "Sekiro: Shadows Die Twice",
+    "appId": 814380,
+    "genre": "Action",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Action ที่เน้นการต่อสู้ด้วยดาบและการปัดป้องการโจมตี"
+  },
+  {
+    "name": "Dark Souls III",
+    "appId": 374320,
+    "genre": "Action RPG",
+    "platform": "PC, PS4, Xbox",
+    "description": "เกม Action RPG ที่มีระบบต่อสู้ที่ท้าทายและโลกแฟนตาซี"
+  },
+  {
+    "name": "Nioh 2",
+    "appId": 1325200,
+    "genre": "Action RPG",
+    "platform": "PC, PS4, PS5",
+    "description": "เกม Action RPG ที่มีฉากหลังเป็นญี่ปุ่นยุคโบราณและเหล่าปีศาจ"
+  },
+  {
+    "name": "Dragon's Dogma 2",
+    "appId": 2054970,
+    "genre": "Action RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Action RPG โลกเปิดที่มีระบบ Pawn และการต่อสู้กับมอนสเตอร์ขนาดใหญ่"
+  },
+  {
+    "name": "Path of Exile",
+    "appId": 238960,
+    "genre": "Action RPG",
+    "platform": "PC",
+    "description": "เกม Action RPG ที่มีระบบสร้างตัวละครและไอเทมจำนวนมาก"
+  },
+  {
+    "name": "Path of Exile 2",
+    "appId": 2694490,
+    "genre": "Action RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Action RPG ภาคต่อที่มีระบบต่อสู้และการสร้างตัวละครที่หลากหลาย"
+  },
+  {
+    "name": "Diablo IV",
+    "appId": 2344520,
+    "genre": "Action RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Action RPG ที่ให้ผู้เล่นต่อสู้กับปีศาจและพัฒนาตัวละคร"
+  },
+  {
+    "name": "Final Fantasy XIV Online",
+    "appId": 39210,
+    "genre": "MMORPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม MMORPG ที่มีโลกแฟนตาซีขนาดใหญ่และเนื้อเรื่องต่อเนื่อง"
+  },
+  {
+    "name": "Persona 5 Royal",
+    "appId": 1687950,
+    "genre": "JRPG",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกม JRPG ที่ผสมการใช้ชีวิตประจำวันกับการต่อสู้ในโลกแฟนตาซี"
+  },
+  {
+    "name": "Fallout 4",
+    "appId": 377160,
+    "genre": "RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม RPG โลกเปิดหลังโลกถูกทำลายด้วยสงครามนิวเคลียร์"
+  },
+  {
+    "name": "Fallout 76",
+    "appId": 1151340,
+    "genre": "Online RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม RPG ออนไลน์ในโลก Fallout ที่สามารถเล่นร่วมกับผู้เล่นอื่น"
+  },
+  {
+    "name": "Starfield",
+    "appId": 1716740,
+    "genre": "RPG",
+    "platform": "PC, Xbox",
+    "description": "เกม RPG โลกอวกาศที่ให้ผู้เล่นสำรวจดาวเคราะห์จำนวนมาก"
+  },
+  {
+    "name": "The Elder Scrolls V: Skyrim Special Edition",
+    "appId": 489830,
+    "genre": "RPG",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกม RPG โลกเปิดในดินแดน Skyrim ที่เต็มไปด้วยภารกิจและการผจญภัย"
+  },
+  {
+    "name": "No Man's Sky",
+    "appId": 275850,
+    "genre": "Open World",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมสำรวจอวกาศที่มีจักรวาลขนาดใหญ่และดาวเคราะห์จำนวนมาก"
+  },
+  {
+    "name": "Assassin's Creed Odyssey",
+    "appId": 812140,
+    "genre": "Action RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Action RPG โลกเปิดในยุคกรีกโบราณ"
+  },
+  {
+    "name": "Assassin's Creed Valhalla",
+    "appId": 2208920,
+    "genre": "Action RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Action RPG ที่ผู้เล่นรับบทเป็นนักรบไวกิ้ง"
+  },
+  {
+    "name": "Ghost of Tsushima DIRECTOR'S CUT",
+    "appId": 2215430,
+    "genre": "Action Adventure",
+    "platform": "PC, PS5",
+    "description": "เกม Open World ที่มีฉากหลังเป็นญี่ปุ่นในยุคซามูไร"
+  },
+  {
+    "name": "Marvel's Spider-Man Remastered",
+    "appId": 1817070,
+    "genre": "Action Adventure",
+    "platform": "PC, PS5",
+    "description": "เกมผจญภัยโลกเปิดที่ให้ผู้เล่นรับบทเป็น Spider-Man"
+  },
+  {
+    "name": "Marvel's Spider-Man 2",
+    "appId": 2651280,
+    "genre": "Action Adventure",
+    "platform": "PC, PS5",
+    "description": "เกมผจญภัยโลกเปิดที่มีทั้ง Peter Parker และ Miles Morales"
+  },
+  {
+    "name": "God of War",
+    "appId": 1593500,
+    "genre": "Action Adventure",
+    "platform": "PC, PS5",
+    "description": "เกม Action Adventure ที่ติดตามการเดินทางของ Kratos และ Atreus"
+  },
+  {
+    "name": "God of War Ragnarök",
+    "appId": 2322010,
+    "genre": "Action Adventure",
+    "platform": "PC, PS5",
+    "description": "เกมภาคต่อของ God of War ที่มีเรื่องราวเกี่ยวกับ Ragnarök"
+  },
+  {
+    "name": "Horizon Zero Dawn",
+    "appId": 1151640,
+    "genre": "Action RPG",
+    "platform": "PC, PS4, PS5",
+    "description": "เกม Open World ที่มีโลกอนาคตซึ่งเต็มไปด้วยเครื่องจักรคล้ายสัตว์"
+  },
+  {
+    "name": "Horizon Forbidden West",
+    "appId": 2420110,
+    "genre": "Action RPG",
+    "platform": "PC, PS5",
+    "description": "เกม Open World ที่ติดตามการผจญภัยของ Aloy"
+  },
+  {
+    "name": "Days Gone",
+    "appId": 1259420,
+    "genre": "Action",
+    "platform": "PC, PS4, PS5",
+    "description": "เกม Open World ที่มีโลกหลังหายนะและฝูง Freakers"
+  },
+  {
+    "name": "Death Stranding",
+    "appId": 1190460,
+    "genre": "Adventure",
+    "platform": "PC, PS5",
+    "description": "เกมผจญภัยที่เน้นการเดินทางและการเชื่อมต่อผู้คนในโลกหลังหายนะ"
+  },
+  {
+    "name": "The Last of Us Part I",
+    "appId": 1888930,
+    "genre": "Action Adventure",
+    "platform": "PC, PS5",
+    "description": "เกมผจญภัยหลังหายนะที่ติดตามการเดินทางของ Joel และ Ellie"
+  },
+  {
+    "name": "UNCHARTED: Legacy of Thieves Collection",
+    "appId": 1659420,
+    "genre": "Action Adventure",
+    "platform": "PC, PS5",
+    "description": "เกมผจญภัยที่เต็มไปด้วยการสำรวจ ปริศนา และฉากแอ็กชัน"
+  },
+  {
+    "name": "Cities: Skylines",
+    "appId": 255710,
+    "genre": "Simulation",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมสร้างเมืองที่ให้ผู้เล่นออกแบบและบริหารเมืองของตัวเอง"
+  },
+  {
+    "name": "Cities: Skylines II",
+    "appId": 949230,
+    "genre": "Simulation",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมสร้างเมืองที่พัฒนาระบบการจำลองเมืองให้มีรายละเอียดมากขึ้น"
+  },
+  {
+    "name": "The Sims 4",
+    "appId": 1222670,
+    "genre": "Simulation",
+    "platform": "PC",
+    "description": "เกมจำลองชีวิตที่ให้ผู้เล่นสร้างตัวละคร บ้าน และเรื่องราวของตัวเอง"
+  },
+  {
+    "name": "Farming Simulator 25",
+    "appId": 2300320,
+    "genre": "Simulation",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมจำลองการทำฟาร์มที่มีเครื่องจักรและกิจกรรมทางการเกษตรมากมาย"
+  },
+  {
+    "name": "Euro Truck Simulator 2",
+    "appId": 227300,
+    "genre": "Simulation",
+    "platform": "PC",
+    "description": "เกมจำลองการขับรถบรรทุกและการทำธุรกิจขนส่งในยุโรป"
+  },
+  {
+    "name": "American Truck Simulator",
+    "appId": 270880,
+    "genre": "Simulation",
+    "platform": "PC",
+    "description": "เกมจำลองการขับรถบรรทุกในสหรัฐอเมริกา"
+  },
+  {
+    "name": "Forza Horizon 5",
+    "appId": 1551360,
+    "genre": "Racing",
+    "platform": "PC, Xbox",
+    "description": "เกมแข่งรถโลกเปิดที่มีรถยนต์จำนวนมากและฉากในประเทศเม็กซิโก"
+  },
+  {
+    "name": "Need for Speed Heat",
+    "appId": 1222680,
+    "genre": "Racing",
+    "platform": "PC, PS4, Xbox",
+    "description": "เกมแข่งรถที่มีทั้งการแข่งขันกลางวันและการแข่งผิดกฎหมายในตอนกลางคืน"
+  },
+  {
+    "name": "Assetto Corsa",
+    "appId": 244210,
+    "genre": "Racing",
+    "platform": "PC, PS4, Xbox",
+    "description": "เกมแข่งรถที่เน้นการจำลองฟิสิกส์และการควบคุมรถ"
+  },
+  {
+    "name": "Rocket League",
+    "appId": 252950,
+    "genre": "Sports",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกมฟุตบอลที่ใช้รถยนต์แทนนักฟุตบอล"
+  },
+  {
+    "name": "EA SPORTS FC 24",
+    "appId": 2195250,
+    "genre": "Sports",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมฟุตบอลที่มีทีมและการแข่งขันจากลีกต่าง ๆ ทั่วโลก"
+  },
+  {
+    "name": "WWE 2K24",
+    "appId": 2315690,
+    "genre": "Sports",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมมวยปล้ำที่มีนักมวยปล้ำและโหมดการแข่งขันหลากหลาย"
+  },
+  {
+    "name": "TEKKEN 8",
+    "appId": 1778820,
+    "genre": "Fighting",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมต่อสู้ภาคใหม่ของซีรีส์ Tekken"
+  },
+  {
+    "name": "Street Fighter 6",
+    "appId": 1364780,
+    "genre": "Fighting",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมต่อสู้ที่มีตัวละครและระบบการต่อสู้รูปแบบใหม่"
+  },
+  {
+    "name": "Mortal Kombat 1",
+    "appId": 1971870,
+    "genre": "Fighting",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมต่อสู้จากซีรีส์ Mortal Kombat ที่มีตัวละครจำนวนมาก"
+  },
+  {
+    "name": "Dead Island 2",
+    "appId": 934700,
+    "genre": "Action",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมแอ็กชันซอมบี้ที่เกิดขึ้นใน Los Angeles"
+  },
+  {
+    "name": "Borderlands 3",
+    "appId": 397540,
+    "genre": "FPS RPG",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมยิงผสม RPG ที่มีอาวุธจำนวนมหาศาล"
+  },
+  {
+    "name": "DOOM Eternal",
+    "appId": 782330,
+    "genre": "FPS",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมยิงความเร็วสูงที่ให้ผู้เล่นต่อสู้กับเหล่าปีศาจ"
+  },
+  {
+    "name": "Doom",
+    "appId": 379720,
+    "genre": "FPS",
+    "platform": "PC, PS4, Xbox",
+    "description": "เกมยิงมุมมองบุคคลที่หนึ่งที่เน้นการต่อสู้กับปีศาจอย่างรวดเร็ว"
+  },
+  {
+    "name": "Metro Exodus",
+    "appId": 412020,
+    "genre": "FPS",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมยิงเนื้อเรื่องที่เกิดขึ้นในโลกหลังสงครามนิวเคลียร์"
+  },
+  {
+    "name": "Far Cry 5",
+    "appId": 552520,
+    "genre": "FPS",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมยิงโลกเปิดที่เกิดขึ้นในรัฐ Montana"
+  },
+  {
+    "name": "Far Cry 6",
+    "appId": 2369390,
+    "genre": "FPS",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมยิงโลกเปิดที่เกิดขึ้นบนเกาะสมมติ Yara"
+  },
+  {
+    "name": "Payday 2",
+    "appId": 218620,
+    "genre": "FPS",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Co-op ที่ให้ผู้เล่นร่วมมือกันปล้นและทำภารกิจต่าง ๆ"
+  },
+  {
+    "name": "Payday 3",
+    "appId": 1272080,
+    "genre": "FPS",
+    "platform": "PC, PS5, Xbox",
+    "description": "ภาคต่อของเกมปล้นแบบ Co-op ที่มีภารกิจใหม่"
+  },
+  {
+    "name": "War Thunder",
+    "appId": 236390,
+    "genre": "Simulation",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกมสงครามที่มีเครื่องบิน รถถัง และเรือรบ"
+  },
+  {
+    "name": "Lost Ark",
+    "appId": 1599340,
+    "genre": "MMORPG",
+    "platform": "PC",
+    "description": "เกม MMORPG Action ที่มีโลกแฟนตาซีและระบบต่อสู้แบบ Hack and Slash"
+  },
+  {
+    "name": "Marvel Rivals",
+    "appId": 2767030,
+    "genre": "Hero Shooter",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Hero Shooter ที่นำตัวละครจาก Marvel มาต่อสู้กันเป็นทีม"
+  },
+  {
+    "name": "Paladins",
+    "appId": 444090,
+    "genre": "Hero Shooter",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกมยิงแบบทีมที่มีตัวละครพร้อมความสามารถเฉพาะตัว"
+  },
+  {
+    "name": "Geometry Dash",
+    "appId": 322170,
+    "genre": "Rhythm",
+    "platform": "PC, Mobile",
+    "description": "เกม Rhythm Platformer ที่ต้องควบคุมตัวละครให้ผ่านด่านตามจังหวะเพลง"
+  },
+  {
+    "name": "Don't Starve Together",
+    "appId": 322330,
+    "genre": "Survival",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกม Survival ที่สามารถร่วมมือกับเพื่อนเพื่อเอาชีวิตรอด"
+  },
+  {
+    "name": "Subnautica",
+    "appId": 264710,
+    "genre": "Survival",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกม Survival ใต้น้ำที่ให้สำรวจมหาสมุทรของดาวเคราะห์ต่างดาว"
+  },
+  {
+    "name": "Subnautica: Below Zero",
+    "appId": 848450,
+    "genre": "Survival",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "ภาคต่อของ Subnautica ที่เกิดขึ้นในพื้นที่น้ำแข็ง"
+  },
+  {
+    "name": "The Long Dark",
+    "appId": 305620,
+    "genre": "Survival",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกม Survival ที่ผู้เล่นต้องเอาชีวิตรอดในพื้นที่หนาวเย็น"
+  },
+  {
+    "name": "Project Zomboid",
+    "appId": 108600,
+    "genre": "Survival",
+    "platform": "PC",
+    "description": "เกม Survival ซอมบี้ที่เน้นการจัดการทรัพยากรและการเอาชีวิตรอด"
+  },
+  {
+    "name": "7 Days to Die",
+    "appId": 251570,
+    "genre": "Survival",
+    "platform": "PC, PS5, Xbox",
+    "description": "เกม Survival ซอมบี้ที่สามารถสร้างฐานและออกสำรวจโลกได้"
+  },
+  {
+    "name": "Bloons TD 6",
+    "appId": 960090,
+    "genre": "Tower Defense",
+    "platform": "PC, Mobile",
+    "description": "เกม Tower Defense ที่ใช้ลิงและอาวุธต่าง ๆ ป้องกันศัตรู"
+  },
+  {
+    "name": "Don't Starve",
+    "appId": 219740,
+    "genre": "Survival",
+    "platform": "PC",
+    "description": "เกม Survival ที่ผู้เล่นต้องหาอาหาร สร้างสิ่งของ และเอาชีวิตรอด"
+  },
+  {
+    "name": "Cuphead",
+    "appId": 268910,
+    "genre": "Platformer",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกม Platformer ที่มีสไตล์ภาพเหมือนการ์ตูนยุคเก่าและบอสที่ท้าทาย"
+  },
+  {
+    "name": "Celeste",
+    "appId": 504230,
+    "genre": "Platformer",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกม Platformer ที่ผู้เล่นต้องปีนภูเขา Celeste และผ่านด่านที่ท้าทาย"
+  },
+  {
+    "name": "Undertale",
+    "appId": 391540,
+    "genre": "RPG",
+    "platform": "PC, Switch, PS4",
+    "description": "เกม RPG ที่ให้ผู้เล่นเลือกว่าจะต่อสู้หรือพูดคุยกับศัตรู"
+  },
+  {
+    "name": "Terraria",
+    "appId": 105600,
+    "genre": "Sandbox",
+    "platform": "PC, PS5, Xbox, Switch",
+    "description": "เกม Sandbox 2D ที่เต็มไปด้วยการสำรวจ การสร้าง และการต่อสู้"
+  },
+  {
+    "name": "Among Us",
+    "appId": 945360,
+    "genre": "Party",
+    "platform": "PC, Mobile, Switch",
+    "description": "เกมปาร์ตี้ที่ต้องทำภารกิจและค้นหาผู้แอบแฝง"
+  }
+]
